@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="NumberGuessing.css">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: antiquewhite; font-family: 'Times New Roman', Times, serif;">
+
+        <hr>
+        <h3 id="h3">Number Guessing Game</h3>
+        <hr>
+        <br>
+        <div class="main">
+            <p>Try and guess a random number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the number.</p>
+            <hr>
+                <form class="form">
+                    <label for="guessField" id="guess">Guess a Number</label><br><br>
+                    <input type="text" id="guessField" class="guessField" placeholder="Guess Here" autofocus><br><br>
+                    <input type="submit" id="sub" value="Submit Guess" class="guessSubmit">
+                </form>
+
+                <div class="resultParas">
+                    <p>Previous Guesses : <span class="guesses"></span> </p>
+                    <p id="guess1">Guesses Remain : <span class="lastResult">10</span></p>
+                    <p class="lowOrHi"></p>    
+                </div>
+                
+                <button class="reset">Restart</button>
+                <HR>
+                    <!--<img src="3232.jpg" alt="Maa" width="50px"> -->
+                <marquee behavior="scroll" direction="left"> RAMPRAVESH PRAJAPATI ... 9628515214 </marquee>
+            
+        </div>
+
+ <script src="NumberGuessing.js"></script>
+    
+</body>
+
+</html>
